@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'XYCounter_Example' do
+  pod 'XYCounter', :path => '../'
+
+  target 'XYCounter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
