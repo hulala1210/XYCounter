@@ -1,5 +1,5 @@
 //
-//  XYViewController.h
+//  XYHomeController.h
 //  XYCounter
 //
 //  Created by 谌彦霖 on 12/10/2020.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface XYViewController : UIViewController
+@interface XYHomeController : UIViewController
 
 @end

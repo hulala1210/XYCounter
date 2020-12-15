@@ -7,12 +7,24 @@
 //
 
 #import "XYAppDelegate.h"
+#import "XYHomeController.h"
+#import <XYCounter/XYCounter.h>
+#import "XYStasticsModule.h"
 
 @implementation XYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [XYStasticsModule startModule];
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window = window;
+    XYHomeController *vc = [[XYHomeController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    [window setRootViewController:navigationController];
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 

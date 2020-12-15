@@ -14,7 +14,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* XYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XYAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XYViewController.m */; };
+		6003F5A7195388D20070C39A /* XYHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XYHomeController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +22,16 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A763F3F2964776027DAE14F0 /* Pods_XYCounter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3B2959DBB252127C605F8F /* Pods_XYCounter_Example.framework */; };
+		E219F3C625837D4600DAC055 /* XYHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E219F3C525837D4600DAC055 /* XYHomeController.xib */; };
+		E269C9C425854DFB00070AC2 /* XYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E269C9C225854DFB00070AC2 /* XYTableViewController.m */; };
+		E269C9C525854DFB00070AC2 /* XYTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E269C9C325854DFB00070AC2 /* XYTableViewController.xib */; };
+		E269C9CB25854E0E00070AC2 /* XYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E269C9C925854E0E00070AC2 /* XYCollectionViewController.m */; };
+		E269C9CC25854E0E00070AC2 /* XYCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E269C9CA25854E0E00070AC2 /* XYCollectionViewController.xib */; };
+		E27BB88325875D9100F8E0EE /* XYStasticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BB88225875D9100F8E0EE /* XYStasticsModule.m */; };
+		E27BB89025875DF600F8E0EE /* XYHomeStastics.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BB88F25875DF600F8E0EE /* XYHomeStastics.m */; };
+		E27BB89525875E0D00F8E0EE /* XYTableViewStastics.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BB89425875E0D00F8E0EE /* XYTableViewStastics.m */; };
+		E27BB89A25875E1E00F8E0EE /* XYCollectionViewStastics.m in Sources */ = {isa = PBXBuildFile; fileRef = E27BB89925875E1E00F8E0EE /* XYCollectionViewStastics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03A3A15FA7E7D37D31C6555F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03A3A15FA7E7D37D31C6555F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4B0E7B5AE835F8EE33060DA7 /* Pods-XYCounter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCounter_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYCounter_Tests/Pods-XYCounter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53DED7614D92BBB806E754F9 /* Pods-XYCounter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCounter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYCounter_Tests/Pods-XYCounter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XYCounter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYCounter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,8 +58,8 @@
 		6003F59B195388D20070C39A /* XYCounter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XYCounter-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* XYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* XYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* XYHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYHomeController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* XYHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYHomeController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* XYCounter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYCounter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -62,11 +70,25 @@
 		6D3B2959DBB252127C605F8F /* Pods_XYCounter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYCounter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814B1A174ECB1E73E57A6CD4 /* Pods-XYCounter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCounter_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYCounter_Example/Pods-XYCounter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D65AA98A77693BBF1704F073 /* Pods-XYCounter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYCounter_Example.release.xcconfig"; path = "Target Support Files/Pods-XYCounter_Example/Pods-XYCounter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DF3E6BA2AB48B5B5946EDC35 /* Pods_XYCounter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYCounter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6318B40787BCEBF4FCEF824 /* XYCounter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYCounter.podspec; path = ../XYCounter.podspec; sourceTree = "<group>"; };
-		F60A06857EFB32B706ACB2CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E219F3C525837D4600DAC055 /* XYHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYHomeController.xib; sourceTree = "<group>"; };
+		E269C9C125854DFB00070AC2 /* XYTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYTableViewController.h; sourceTree = "<group>"; };
+		E269C9C225854DFB00070AC2 /* XYTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYTableViewController.m; sourceTree = "<group>"; };
+		E269C9C325854DFB00070AC2 /* XYTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYTableViewController.xib; sourceTree = "<group>"; };
+		E269C9C825854E0E00070AC2 /* XYCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCollectionViewController.h; sourceTree = "<group>"; };
+		E269C9C925854E0E00070AC2 /* XYCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCollectionViewController.m; sourceTree = "<group>"; };
+		E269C9CA25854E0E00070AC2 /* XYCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XYCollectionViewController.xib; sourceTree = "<group>"; };
+		E27BB88125875D9100F8E0EE /* XYStasticsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYStasticsModule.h; sourceTree = "<group>"; };
+		E27BB88225875D9100F8E0EE /* XYStasticsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYStasticsModule.m; sourceTree = "<group>"; };
+		E27BB88E25875DF600F8E0EE /* XYHomeStastics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYHomeStastics.h; sourceTree = "<group>"; };
+		E27BB88F25875DF600F8E0EE /* XYHomeStastics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYHomeStastics.m; sourceTree = "<group>"; };
+		E27BB89325875E0D00F8E0EE /* XYTableViewStastics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYTableViewStastics.h; sourceTree = "<group>"; };
+		E27BB89425875E0D00F8E0EE /* XYTableViewStastics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYTableViewStastics.m; sourceTree = "<group>"; };
+		E27BB89825875E1E00F8E0EE /* XYCollectionViewStastics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYCollectionViewStastics.h; sourceTree = "<group>"; };
+		E27BB89925875E1E00F8E0EE /* XYCollectionViewStastics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYCollectionViewStastics.m; sourceTree = "<group>"; };
+		E6318B40787BCEBF4FCEF824 /* XYCounter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYCounter.podspec; path = ../XYCounter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F60A06857EFB32B706ACB2CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +156,16 @@
 			children = (
 				6003F59C195388D20070C39A /* XYAppDelegate.h */,
 				6003F59D195388D20070C39A /* XYAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XYViewController.h */,
-				6003F5A6195388D20070C39A /* XYViewController.m */,
+				E27BB88025875D6900F8E0EE /* StasticModule */,
+				6003F5A5195388D20070C39A /* XYHomeController.h */,
+				6003F5A6195388D20070C39A /* XYHomeController.m */,
+				E219F3C525837D4600DAC055 /* XYHomeController.xib */,
+				E269C9C125854DFB00070AC2 /* XYTableViewController.h */,
+				E269C9C225854DFB00070AC2 /* XYTableViewController.m */,
+				E269C9C325854DFB00070AC2 /* XYTableViewController.xib */,
+				E269C9C825854E0E00070AC2 /* XYCollectionViewController.h */,
+				E269C9C925854E0E00070AC2 /* XYCollectionViewController.m */,
+				E269C9CA25854E0E00070AC2 /* XYCollectionViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,8 +222,30 @@
 				53DED7614D92BBB806E754F9 /* Pods-XYCounter_Tests.debug.xcconfig */,
 				4B0E7B5AE835F8EE33060DA7 /* Pods-XYCounter_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E27BB88025875D6900F8E0EE /* StasticModule */ = {
+			isa = PBXGroup;
+			children = (
+				E27BB88125875D9100F8E0EE /* XYStasticsModule.h */,
+				E27BB88225875D9100F8E0EE /* XYStasticsModule.m */,
+				E27BB88625875DA400F8E0EE /* Categories */,
+			);
+			path = StasticModule;
+			sourceTree = "<group>";
+		};
+		E27BB88625875DA400F8E0EE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E27BB88E25875DF600F8E0EE /* XYHomeStastics.h */,
+				E27BB88F25875DF600F8E0EE /* XYHomeStastics.m */,
+				E27BB89325875E0D00F8E0EE /* XYTableViewStastics.h */,
+				E27BB89425875E0D00F8E0EE /* XYTableViewStastics.m */,
+				E27BB89825875E1E00F8E0EE /* XYCollectionViewStastics.h */,
+				E27BB89925875E1E00F8E0EE /* XYCollectionViewStastics.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +309,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,10 +329,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				E219F3C625837D4600DAC055 /* XYHomeController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				E269C9C525854DFB00070AC2 /* XYTableViewController.xib in Resources */,
+				E269C9CC25854E0E00070AC2 /* XYCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,10 +401,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XYCounter_Example/Pods-XYCounter_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XYCounter/XYCounter.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYCounter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -365,7 +421,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* XYAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XYViewController.m in Sources */,
+				E27BB89A25875E1E00F8E0EE /* XYCollectionViewStastics.m in Sources */,
+				E27BB89025875DF600F8E0EE /* XYHomeStastics.m in Sources */,
+				E27BB89525875E0D00F8E0EE /* XYTableViewStastics.m in Sources */,
+				6003F5A7195388D20070C39A /* XYHomeController.m in Sources */,
+				E27BB88325875D9100F8E0EE /* XYStasticsModule.m in Sources */,
+				E269C9CB25854E0E00070AC2 /* XYCollectionViewController.m in Sources */,
+				E269C9C425854DFB00070AC2 /* XYTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
