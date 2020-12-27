@@ -19,17 +19,16 @@
 
 - (void)xyCounter_addTarget:(id)target action:(SEL)action {
     [self xyCounter_addTarget:target action:action];
-    [self xyCounter_addTarget:self action:@selector(gestureAcion:)];
+    [self xyCounter_addTarget:self action:@selector(xyCounter_gestureAction:)];
 }
 
-- (void)gestureAcion:(UIGestureRecognizer *)gesture {
+- (void)xyCounter_gestureAction:(UIGestureRecognizer *)gesture {
     XYCounterGestureEvent *gestureEvent = [[XYCounterGestureEvent alloc] init];
     gestureEvent.sender = gesture;
     gestureEvent.view = gesture.view;
     gestureEvent.viewController = [gesture.view xyCounter_getViewController];
 
     [[XYCounterEventDistributor sharedInstance] handleGestureRecognizerEvent:gestureEvent];
-    
 }
 
 @end
