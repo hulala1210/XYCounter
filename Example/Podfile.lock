@@ -1,24 +1,15 @@
 PODS:
-  - XYCounter (1.0.0):
-    - YYKit
-  - YYKit (1.0.9):
-    - YYKit/no-arc (= 1.0.9)
-  - YYKit/no-arc (1.0.9)
+  - XYCounter (0.1.0)
 
 DEPENDENCIES:
   - XYCounter (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - YYKit
 
 EXTERNAL SOURCES:
   XYCounter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XYCounter: 0eefd21170124296aab9b0a7f6f3eb067bf694e0
-  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  XYCounter: eb4b739f581f74653e4b3ae53462a13c01327e64
 
 PODFILE CHECKSUM: ab3396405a56b47c76cfe6d77b7734e3d8b6230b
 

@@ -12,15 +12,22 @@ static void *xyCounterTableProxyKey = "xyCounterTableProxyKey";
 
 @implementation UITableView (XYCounterHooker)
 
-- (void)setXyCounter_delegateProxy:(XYCounterTableViewDelegateProxy *)xyCounter_delegateProxy {
-    [self setAssociateValue:xyCounter_delegateProxy withKey:&xyCounterTableProxyKey];
+- (void)setXyCounter_delegateProxy:(XYCounterTableViewDelegateProxy * _Nullable)xyCounter_delegateProxy {
+    [self xyCounter_setAssociateValue:xyCounter_delegateProxy withKey:&xyCounterTableProxyKey];
 }
 
 - (XYCounterTableViewDelegateProxy *)xyCounter_delegateProxy {
-    return [self getAssociatedValueForKey:&xyCounterTableProxyKey];
+    return [self xyCounter_getAssociatedValueForKey:&xyCounterTableProxyKey];
 }
 
-- (void)xyCounter_setDelegate:(id<UITableViewDelegate>)delegate {
+- (void)xyCounter_setDelegate:(id<UITableViewDelegate> _Nullable)delegate {
+    
+    if (delegate == nil) {
+        [self xyCounter_setDelegate:nil];
+        self.xyCounter_delegateProxy = nil;
+        return;
+    }
+    
     XYCounterTableViewDelegateProxy *proxy = [XYCounterTableViewDelegateProxy proxyWithObject:delegate];
     [self xyCounter_setDelegate:proxy];
     self.xyCounter_delegateProxy = proxy;

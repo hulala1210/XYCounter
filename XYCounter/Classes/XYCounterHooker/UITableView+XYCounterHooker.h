@@ -6,14 +6,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <YYKit/YYKit.h>
+#import "NSObject+XYCounter.h"
 
 NS_ASSUME_NONNULL_BEGIN
 @class XYCounterTableViewDelegateProxy;
 @interface UITableView (XYCounterHooker)
 
-@property (strong, nonatomic) XYCounterTableViewDelegateProxy *xyCounter_delegateProxy;
-- (void)xyCounter_setDelegate:(id<UITableViewDelegate>)delegate;
+@property (strong, nonatomic) XYCounterTableViewDelegateProxy * _Nullable xyCounter_delegateProxy;
+- (void)xyCounter_setDelegate:(id<UITableViewDelegate> _Nullable)delegate;
 @end
 
 NS_ASSUME_NONNULL_END
